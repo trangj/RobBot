@@ -9,7 +9,7 @@ export const audio = {
 	name: "audio",
 	description: "Play audio from YouTube",
 	args: true,
-	usage: "play <YouTube URL>, stop, pause, resume, queue <YouTube URL>, skip",
+	usage: "play <YouTube URL>, stop, pause, resume, queue <YouTube URL>, skip, list",
 	execute(message: Message, args: string[]) {
 		switch (args[0]) {
 			case "play":
